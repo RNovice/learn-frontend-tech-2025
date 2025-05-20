@@ -1,0 +1,9 @@
+form {
+  max-width: 768px;
+}
+
+.required::after {
+  padding-left: 5px;
+  color: #f85149;
+  content: "*";
+}

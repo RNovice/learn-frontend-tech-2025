@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# A Sign up Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> w/ zod | RHF | TS
 
-Currently, two official plugins are available:
+## Practice Focus:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Basic React with TS components.
+- RHF controlled and uncontrolled inputs.
+- Zod schemas for client-side validation.
+- Type safety across form values.
 
-## Expanding the ESLint configuration
+## Form Field:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔐 Account Info
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Username – Required, alphanumeric, min 3, max 20
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Email – Required, valid email
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3. Password – Required, min 8, must include a number and special character
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+4. Confirm Password – Must match password
+
+🧍 Personal Info
+
+5. Full Name – Required
+
+6. Date of Birth – Required, user must be at least 18 years old
+
+7. Phone Number – Optional, must match pattern (e.g., E.164)
+
+8. Gender – Optional, must be either 'male', 'female', or 'other'
+
+9. Country – Required, selected from dropdown
+
+📎 Extra Features
+
+10. Profile Picture URL – Optional, must be a valid URL if provided
+
+11. Bio – Optional, max 300 characters
+
+12. Newsletter Subscription – Optional boolean
+
+13. Accept Terms – Must be true
