@@ -249,6 +249,6 @@ const countries = [
   "Zambia",
   "Zimbabwe",
   "Åland Islands",
-];
+] as const;
 
 export default countries;
