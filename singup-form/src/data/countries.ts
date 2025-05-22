@@ -252,3 +252,4 @@ const countries = [
 ] as const;
 
 export default countries;
+export type CountryType = (typeof countries)[number];

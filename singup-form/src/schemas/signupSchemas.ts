@@ -1,8 +1,7 @@
 import { z } from "zod";
 import countries from "../data/countries";
 import { differenceInYears } from "date-fns";
-
-type CountryType = (typeof countries)[number];
+import type { CountryType } from "../data/countries";
 
 export const signupSchema = z
   .object({
@@ -21,7 +20,7 @@ export const signupSchema = z
         message: "Invalid password",
       }),
     confirmPassword: z.string(),
-    fullName: z.string().min(1, {
+    fullName: z.string().nonempty({
       message: "Full name is required",
     }),
     phoneNumber: z
@@ -33,7 +32,7 @@ export const signupSchema = z
       .or(z.literal("")),
     dateOfBirth: z
       .string()
-      .min(1, {
+      .nonempty({
         message: "Date of birth is required",
       })
       .refine(

@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { signupSchema } from "../schemas/signupSchemas";
 import type { SignupType } from "../schemas/signupSchemas";
+import type { CountryType } from "../data/countries";
 
 const SignupForm = () => {
 
@@ -72,7 +73,7 @@ const SignupForm = () => {
       <select {...register("country")} className="form-control" id="country">
         <option></option>
         <option value={"Not exist country"}>Not exist country</option>
-        {countries.map((c, i) => <option key={'country-' + i} value={c}>{c}</option>)}
+        {(countries as readonly CountryType[]).map((c, i) => <option key={'country-' + i} value={c}>{c}</option>)}
       </select>
       {errors.country && <span className="text-danger">{errors.country.message}</span>}
     </div>
@@ -87,13 +88,13 @@ const SignupForm = () => {
       {errors.bio && <span className="text-danger">{errors.bio.message}</span>}
     </div>
     <div className="form-check">
-      <input {...register("newsletter")} className="form-check-input" type="checkbox" value="" id="newsletter" />
+      <input {...register("newsletter")} className="form-check-input" type="checkbox" id="newsletter" />
       <label className="form-check-label" htmlFor="newsletter">
         Agree receive newsletter
       </label>
     </div>
     <div className="form-check">
-      <input {...register("terms")} className="form-check-input" type="checkbox" value="" id="terms" />
+      <input {...register("terms")} className="form-check-input" type="checkbox" id="terms" />
       <label className="form-check-label" htmlFor="terms">
         I've read and agree with <span className="text-decoration-underline">Terms of Service</span> and <span className="text-decoration-underline">Privacy Policy</span>
       </label>
