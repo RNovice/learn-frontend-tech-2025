@@ -11,3 +11,30 @@ p {
   color: #f85149;
   content: "*";
 }
+
+.info-mark {
+  anchor-name: --info-mark;
+  cursor: default;
+  font-size: 110%;
+  position: relative;
+}
+
+.info-mark:hover .info {
+  display: block;
+}
+
+.info {
+  display: none;
+  border: 1px solid #ddd;
+  top: 100%;
+  left: -42px;
+  color: #666;
+  max-width: 60vw;
+  width: 450px;
+  font-size: 75%;
+  padding: 10px;
+  padding-left: 42px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  position: absolute;
+}

@@ -20,18 +20,30 @@ const SignupForm = () => {
     <div className="row">
       <div className="form-group col">
         <label className="mb-1 required" htmlFor="username">Username</label>
-        <input {...register("username")} className="form-control" id="username" type="text" />
+        <input {...register("username")} className="form-control" id="username" type="text" autoComplete="off" />
         {errors.username && <span className="text-danger">{errors.username.message}</span>}
       </div>
       <div className="form-group col">
         <label className="mb-1 required" htmlFor="email">Email</label>
-        <input {...register("email")} className="form-control" id="email" type="email" />
+        <input {...register("email")} className="form-control" id="email" type="email" autoComplete="email" />
         {errors.email && <span className="text-danger">{errors.email.message}</span>}
       </div>
     </div>
     <div className="row">
       <div className="form-group col">
-        <label className="mb-1 required" htmlFor="password">Password</label>
+        <div className="d-flex gap-1 align-items-end">
+          <label className="mb-1 required" htmlFor="password">Create Password</label>
+          {errors.password && <span className="info-mark text-primary">
+            ⓘ
+            <ul className="info">
+              <li>Be at least 8 characters long</li>
+              <li>Include at least one letter</li>
+              <li>Include at least one number</li>
+              <li>Include at least one special character (only from @$!%*#?&)</li>
+              <li>Must not contain any other characters (e.g., spaces, Chinese characters, emoji, or other punctuation)</li>
+            </ul>
+          </span>}
+        </div>
         <input {...register("password")} className="form-control" id="password" type="password" />
         {errors.password && <span className="text-danger">{errors.password.message}</span>}
       </div>
@@ -70,7 +82,7 @@ const SignupForm = () => {
     </div>
     <div className="form-group">
       <label className="mb-1 required" htmlFor="country">Country</label>
-      <select {...register("country")} className="form-control" id="country">
+      <select {...register("country")} className="form-control" id="country" autoComplete="off">
         <option></option>
         <option value={"Not exist country"}>Not exist country</option>
         {(countries as readonly CountryType[]).map((c, i) => <option key={'country-' + i} value={c}>{c}</option>)}
