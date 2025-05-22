@@ -13,6 +13,7 @@ const SignupForm = () => {
 
   const onSubmit = (data: SignupType) => {
     console.log(data);
+    alert("Form submitted successfully!");
     reset();
   };
 
@@ -84,7 +85,7 @@ const SignupForm = () => {
       <label className="mb-1 required" htmlFor="country">Country</label>
       <select {...register("country")} className="form-control" id="country" autoComplete="off">
         <option></option>
-        <option value={"Not exist country"}>Not exist country</option>
+        <option value={"Not exist country"}>Not Exist Country</option>
         {(countries as readonly CountryType[]).map((c, i) => <option key={'country-' + i} value={c}>{c}</option>)}
       </select>
       {errors.country && <span className="text-danger">{errors.country.message}</span>}
