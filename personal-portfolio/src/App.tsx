@@ -1,12 +1,17 @@
 import Header from "./components/layout/Header"
 import Footer from "./components/layout/Footer"
+import Hero from "./components/sections/Hero"
+import { ThemeToggle } from "./components/ui/theme-toggle"
 
 function App() {
   return (
     <>
       <Header />
-      <main className="container mx-auto p-4"></main>
+      <main>
+        <Hero />
+      </main>
       <Footer />
+      <ThemeToggle />
     </>
   )
 }
