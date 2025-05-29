@@ -1,10 +1,13 @@
-import { Button } from "@/components/ui/button"
+import Header from "./components/layout/Header"
+import Footer from "./components/layout/Footer"
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Header />
+      <main className="container mx-auto p-4"></main>
+      <Footer />
+    </>
   )
 }
 
