@@ -53,7 +53,7 @@ const experiences: ExperienceItem[] = [
 ];
 
 const Experience: FC = () => (
-  <section id="experience">
+  <section id="experience" className="py-12">
     <Container>
       <h2 className="section-title">Experience</h2>
       <Accordion type="single" collapsible>

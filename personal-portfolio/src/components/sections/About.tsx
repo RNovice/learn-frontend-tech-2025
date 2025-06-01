@@ -3,7 +3,7 @@ import Container from "../layout/Container";
 
 const About: FC = () => {
   return (
-    <section id="about" className="py-16">
+    <section id="about" className="py-12">
       <Container>
         <h2 className="section-title">About Me</h2>
         <p className="text-muted-foreground">

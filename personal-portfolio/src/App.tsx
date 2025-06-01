@@ -4,6 +4,7 @@ import Hero from "./components/sections/Hero";
 import { ThemeToggle } from "./components/ui/theme-toggle";
 import About from "./components/sections/About";
 import Experience from "./components/sections/Experience";
+import Projects from "./components/sections/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         <About />
         <Experience />
+        <Projects />
       </main>
       <Footer />
       <ThemeToggle />
