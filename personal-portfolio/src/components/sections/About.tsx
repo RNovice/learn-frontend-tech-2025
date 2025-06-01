@@ -5,7 +5,7 @@ const About: FC = () => {
   return (
     <section id="about" className="py-16">
       <Container>
-        <h2 className="text-3xl font-semibold mb-6">About Me</h2>
+        <h2 className="section-title">About Me</h2>
         <p className="text-muted-foreground">
           Hello! I'm a passionate frontend developer with a love for building
           interactive and user-friendly web applications. I enjoy learning new

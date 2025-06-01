@@ -3,6 +3,7 @@ import Footer from "./components/layout/Footer";
 import Hero from "./components/sections/Hero";
 import { ThemeToggle } from "./components/ui/theme-toggle";
 import About from "./components/sections/About";
+import Experience from "./components/sections/Experience";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
 
         <About />
+        <Experience />
       </main>
       <Footer />
       <ThemeToggle />
