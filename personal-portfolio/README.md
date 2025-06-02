@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+# Personal Portfolio UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> w/ Tailwind | ShadCN | TS
 
-Currently, two official plugins are available:
+## Practice Focus
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Tailwind layout (flex/grid), spacing, colors, responsive design.
+- Use ShadCN components (e.g., buttons, cards, modal).
+- Understand how ShadCN uses Radix under the hood.
 
-## Expanding the ESLint configuration
+## Section
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Section      | Tailwind Focus           | ShadCN Focus    |
+| ------------ | ------------------------ | --------------- |
+| Header       | Layout, spacing, RWD     | Buttons         |
+| Hero         | Typography, spacing, RWD | Buttons         |
+| About        | —                        | —               |
+| Tech Stack   | Grid, hover transitions  | Tooltip         |
+| Experience   | Layout, typography       | Accordion       |
+| Projects     | Grid, responsive columns | Cards           |
+| Testimonials | Typography, layout       | Carousel        |
+| Contact      | Form spacing, validation | Dialog, Buttons |
+| Footer       | —                        | —               |
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+<div>
+  <img src="./public/preview-dark.png" />
+  <img src="./public/preview-light.png" />
+</div>
