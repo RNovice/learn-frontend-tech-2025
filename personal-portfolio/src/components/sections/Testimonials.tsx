@@ -55,9 +55,9 @@ const Testimonials: FC = () => {
           ]}>
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index} className="basis-1/3 px-4 select-none">
+              <CarouselItem key={index} className="min-sm:basis-1/2 min-md:basis-1/3 px-4 select-none">
                 <blockquote className="rounded-md px-4 h-full flex flex-col justify-between">
-                  <p>"{testimonial.feedback}"</p>
+                  <p className="italic">"{testimonial.feedback}"</p>
                   <p className="text-muted-foreground text-end">- {testimonial.name} ({testimonial.role})</p>
                 </blockquote>
               </CarouselItem>

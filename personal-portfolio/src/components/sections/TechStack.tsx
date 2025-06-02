@@ -15,7 +15,6 @@ const TechStack: FC = () => {
     { name: "React", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
     { name: "Next", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
     { name: "Nodejs", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-    { name: "Express", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
     { name: "Docker", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
     { name: "PostgreSQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
     { name: "Firebase", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
@@ -29,18 +28,18 @@ const TechStack: FC = () => {
       <Container>
         <h2 className="section-title">Tech Stack</h2>
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(80px,_1fr))] gap-6">
-          {technologies.map((tech) => (
-            <TooltipProvider key={tech.name}>
-              <Tooltip>
+          <TooltipProvider >
+            {technologies.map((tech) => (
+              <Tooltip key={tech.name}>
                 <TooltipTrigger asChild>
-                  <div className="self-start justify-self-center bg-muted p-4 rounded-sm shadow hover:scale-105 transition-transform select-none">
+                  <div className="self-start justify-self-center p-4 rounded-sm shadow hover:scale-105 transition-transform select-none">
                     <img src={tech.src} alt={tech.name} className="size-10" />
                   </div>
                 </TooltipTrigger>
                 <TooltipContent>{tech.name}</TooltipContent>
               </Tooltip>
-            </TooltipProvider>
-          ))}
+            ))}
+          </TooltipProvider>
         </div>
       </Container>
     </section>

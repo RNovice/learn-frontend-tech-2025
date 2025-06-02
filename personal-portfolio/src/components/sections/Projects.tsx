@@ -82,7 +82,7 @@ const Projects: FC = () => (
       <h2 className="section-title">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map(({ Icon, title, tech, content, link }, idx) => (
-          <Card key={idx}>
+          <Card key={idx} className="transition-shadow hover:shadow-lg">
             <CardHeader className="flex items-center justify-between">
               <div>
                 <CardTitle>{title}</CardTitle>
