@@ -14,15 +14,21 @@ const Hero: FC = () => {
         <Button
           className="bg-indigo-500 hover:bg-indigo-600 text-white"
           size="lg"
+          asChild
         >
-          Contact Me
+          <a href="#contact">
+            Contact Me
+          </a>
         </Button>
         <Button
-          className="hover:bg-indigo-600 text-white hover:text-white"
+          className="hover:bg-gray-800 text-white hover:text-white"
           size="lg"
           variant="ghost"
+          asChild
         >
-          View Projects
+          <a href="#projects">
+            View Projects
+          </a>
         </Button>
       </div>
     </section>

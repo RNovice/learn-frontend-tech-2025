@@ -20,7 +20,11 @@ const Header: FC = () => {
             </li>
           </ul>
 
-          <Button variant="outline">Resume</Button>
+          <Button variant="outline" asChild>
+            <a href="#link-to-resume">
+              Resume
+            </a>
+          </Button>
         </nav>
       </Container>
     </header>
