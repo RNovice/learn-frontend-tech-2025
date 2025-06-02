@@ -24,9 +24,6 @@ const TechStack: FC = () => {
     { name: "Eslint", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" },
   ];
 
-
-
-
   return (
     <section id="tech-stack" className="py-12">
       <Container>
@@ -36,7 +33,7 @@ const TechStack: FC = () => {
             <TooltipProvider key={tech.name}>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <div className="self-start justify-self-center bg-muted p-4 rounded-sm shadow hover:scale-105 transition-transform">
+                  <div className="self-start justify-self-center bg-muted p-4 rounded-sm shadow hover:scale-105 transition-transform select-none">
                     <img src={tech.src} alt={tech.name} className="size-10" />
                   </div>
                 </TooltipTrigger>

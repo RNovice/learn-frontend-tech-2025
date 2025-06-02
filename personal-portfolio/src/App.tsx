@@ -6,6 +6,7 @@ import TechStack from "./components/sections/TechStack"
 import About from "./components/sections/About";
 import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
+import Testimonials from "./components/sections/Testimonials";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        <Testimonials />
       </main>
       <Footer />
       <ThemeToggle />
