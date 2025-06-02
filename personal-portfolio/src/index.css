@@ -118,6 +118,10 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  section {
+    @apply scroll-mt-12;
+  }
 }
 
 @layer utilities {

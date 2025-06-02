@@ -7,6 +7,7 @@ import About from "./components/sections/About";
 import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
 import Testimonials from "./components/sections/Testimonials";
+import Contact from "./components/sections/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Experience />
         <Projects />
         <Testimonials />
+        <Contact />
       </main>
       <Footer />
       <ThemeToggle />
