@@ -1,6 +1,6 @@
 # A Blog App
 
-> w/ next | TS | MDX
+> w/ Next | TS | MDX
 
 ## Practice Focus
 
