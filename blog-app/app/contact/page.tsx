@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <main className="container mx-auto p-12 font-sans">
-      <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
+      <h1>Contact Us</h1>
       <p className="mb-6">We would love to hear from you! Please fill out the form below to get in touch.</p>
       <form className="max-w-xl">
         <div className="mb-4">
@@ -41,7 +41,7 @@ const Contact = () => {
         </button>
       </form>
       <section className="mt-8">
-        <h2 className="text-2xl font-bold mb-4">Other Ways to Reach Us</h2>
+        <h2>Other Ways to Reach Us</h2>
         <p className="mb-4">You can also contact us via email or follow us on social media:</p>
         <div className="mb-4">
           <p className="text-sm font-medium">Email:</p>

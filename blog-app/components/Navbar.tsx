@@ -6,9 +6,9 @@ const Navbar: React.FC = () => {
     <nav className="bg-background border-b-1 border-[#333] p-4 sticky top-0 w-full select-none">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-foreground hover:text-foreground cursor-default">NextGen</Link>
-        <ul className="flex space-x-6 items-center">
+        <ul className="flex space-x-4 sm:space-x-6 items-center">
           <li>
-            <Link href="/" className="text-lg hover:text-foreground">Home</Link>
+            <Link href="/" className="hidden sm:block text-lg hover:text-foreground">Home</Link>
           </li>
           <li>
             <Link href="/about" className="text-lg hover:text-foreground">About</Link>

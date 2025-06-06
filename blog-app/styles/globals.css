@@ -43,6 +43,49 @@
   }
 
   button {
-    @apply cursor-pointer
+    @apply cursor-pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold mb-4;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .mdx p {
+    @apply mb-2;
+  }
+
+  .mdx hr {
+    @apply my-4;
+  }
+
+  .mdx ol {
+    @apply list-decimal pl-4;
+  }
+
+  .mdx ul {
+    @apply list-disc pl-4;
   }
 }

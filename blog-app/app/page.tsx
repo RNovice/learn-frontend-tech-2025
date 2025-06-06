@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
@@ -12,31 +14,34 @@ export default function Home() {
           </a>
         </div>
       </header>
-      <div className="container mx-auto px-12">
+      <div className="container mx-auto px-12 pb-12">
         <section className="mt-8">
           <h2 className="text-3xl font-bold mb-4">Featured Articles</h2>
           <ul className="list-disc pl-5">
             <li className="mb-2">
               <article>
-                <a className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/1">
+                <Link
+                  className="text-xl font-semibold text-foreground hover:text-foreground/90"
+                  href="/blog/the-future-of-ai-in-software-development"
+                >
                   The Future of AI in Software Development
-                </a>
+                </Link>
                 <p className="text-sm text-gray-400">Explore how AI is shaping the software industry.</p>
               </article>
             </li>
             <li className="mb-2">
               <article>
-                <a className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/2">
+                <Link className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/2">
                   Top 10 JavaScript Frameworks in 2025
-                </a>
+                </Link>
                 <p className="text-sm text-gray-400">Discover the most popular frameworks for modern web development.</p>
               </article>
             </li>
             <li className="mb-2">
               <article>
-                <a className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/3">
+                <Link className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/3">
                   How to Build Scalable Web Applications
-                </a>
+                </Link>
                 <p className="text-sm text-gray-400">Learn best practices for creating scalable apps.</p>
               </article>
             </li>
