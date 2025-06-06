@@ -73,6 +73,14 @@
 }
 
 @layer components {
+  .btn-primary {
+    @apply bg-foreground hover:bg-foreground/90 text-background px-4 py-2 rounded;
+  }
+
+  .btn-primary-outline {
+    @apply border-1 border-foreground bg-background hover:bg-foreground/90 text-foreground hover:text-background px-4 py-2 rounded;
+  }
+
   .mdx p {
     @apply mb-2;
   }
