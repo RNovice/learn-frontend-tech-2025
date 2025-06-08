@@ -1,4 +1,6 @@
 import { getAllPosts } from "@/lib/posts";
+import Link from "next/link";
+import { Fragment } from "react";
 
 function getTagCounts(posts: { tags: string[] }[]) {
   return posts.reduce((acc, post) => {
@@ -26,23 +28,31 @@ export default async function Blog() {
         </div>
         <div>
           {posts.length > 0 ? (
-            posts.map((post) => (
-              <div
-                key={post.slug}
-                className="p-4 mb-4 border border-gray-300 rounded shadow"
-              >
-                <h2>{post.title}</h2>
-                <div className="mt-2">
-                  {post.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="inline-block px-2 py-1 mr-2 text-sm text-white bg-blue-500 rounded"
+            posts.map((post, i) => (
+              <Fragment key={post.slug}>
+                {!!i && <hr className="my-4 border-neutral-500" />}
+                <div className="py-4">
+                  <h2 className="m-0">
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-foreground no-underline"
                     >
-                      {tag}
-                    </span>
-                  ))}
+                      {post.title}
+                    </Link>
+                  </h2>
+                  <p className="text-gray-500">{post.description}</p>
+                  <div className="mt-2">
+                    {post.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="inline-block px-2 py-1 mr-2 text-sm text-white bg-blue-500 rounded"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              </Fragment>
             ))
           ) : (
             <p>No posts found.</p>
