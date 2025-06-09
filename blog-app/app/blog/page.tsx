@@ -4,7 +4,7 @@ import { Fragment } from "react";
 
 function getTagCounts(posts: { tags: string[] }[]) {
   return posts.reduce((acc, post) => {
-    post.tags.forEach((tag) => {
+    post?.tags?.forEach((tag) => {
       acc[tag] = (acc[tag] || 0) + 1;
     });
     return acc;
@@ -42,7 +42,7 @@ export default async function Blog() {
                   </h2>
                   <p className="text-gray-500">{post.description}</p>
                   <div className="mt-2">
-                    {post.tags.map((tag) => (
+                    {post?.tags?.map((tag) => (
                       <span
                         key={tag}
                         className="inline-block px-2 py-1 mr-2 text-sm text-white bg-blue-500 rounded"

@@ -16,6 +16,22 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Next Gen Blog",
   description: "Next generation blog",
+  authors: [{ name: "Next Gen Team", url: "https://nextgenblog.com" }],
+  keywords: ["blog", "coding", "programming", "technology", "software development"],
+  themeColor: "#222222",
+  viewport: "width=device-width, initial-scale=1",
+  openGraph: {
+    title: "Next Gen Blog",
+    description: "Next generation blog",
+    siteName: "Next Gen Blog",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Next Gen Blog",
+    description: "Next generation blog",
+  },
 };
 
 export default function RootLayout({

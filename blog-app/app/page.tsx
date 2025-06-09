@@ -7,11 +7,11 @@ export default function Home() {
         <div className="container mx-auto">
           <h1 className="text-4xl sm:text-6xl mb-4">Welcome to NextGen Blog</h1>
           <p className="mb-4">Your go-to platform for cutting-edge software tech insights and articles.</p>
-          <a href="/blog">
+          <Link href="/blog">
             <button className="btn-primary">
               Explore Blogs
             </button>
-          </a>
+          </Link>
         </div>
       </header>
       <div className="container mx-auto px-12 pb-12">
@@ -31,7 +31,10 @@ export default function Home() {
             </li>
             <li className="mb-2">
               <article>
-                <Link className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/2">
+                <Link
+                  className="text-xl font-semibold text-foreground hover:text-foreground/90"
+                  href="/blog/top-10-javaScript-frameworks-in-2025"
+                >
                   Top 10 JavaScript Frameworks in 2025
                 </Link>
                 <p className="text-sm text-gray-400">Discover the most popular frameworks for modern web development.</p>
@@ -39,7 +42,10 @@ export default function Home() {
             </li>
             <li className="mb-2">
               <article>
-                <Link className="text-xl font-semibold text-foreground hover:text-foreground/90" href="/blog/3">
+                <Link
+                  className="text-xl font-semibold text-foreground hover:text-foreground/90"
+                  href="/blog/how-to-build-scalable-web-applications"
+                >
                   How to Build Scalable Web Applications
                 </Link>
                 <p className="text-sm text-gray-400">Learn best practices for creating scalable apps.</p>

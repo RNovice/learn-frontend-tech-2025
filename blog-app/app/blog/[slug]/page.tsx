@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: Props) {
   if (!post) return { title: 'Post Not Found' };
   return {
     title: post.meta.title,
-    description: post.meta.excerpt,
+    description: post.meta.description,
     openGraph: {
       title: post.meta.title,
-      description: post.meta.excerpt,
+      description: post.meta.description,
       type: 'article',
-      publishedTime: post.meta.date,
+      publishedTime: new Date(post.meta.date).toISOString(),
       authors: [post.meta.author],
     },
     keywords: post.meta.keywords,
