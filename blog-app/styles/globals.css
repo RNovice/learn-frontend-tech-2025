@@ -81,12 +81,18 @@
     @apply border-1 border-foreground bg-background hover:bg-foreground/90 text-foreground hover:text-background px-4 py-2 rounded;
   }
 
+  .mdx h4,
+  .mdx h5,
+  .mdx h6 {
+    @apply font-semibold my-2;
+  }
+
   .mdx p {
     @apply mb-2;
   }
 
   .mdx hr {
-    @apply my-4;
+    @apply my-4 border-neutral-500;
   }
 
   .mdx ol {
@@ -95,5 +101,17 @@
 
   .mdx ul {
     @apply list-disc pl-4;
+  }
+
+  .mdx code:not(pre code) {
+    @apply bg-neutral-300/20 rounded px-1 py-0.5 text-[85%];
+  }
+
+  .mdx pre:has(code) {
+    @apply dark:bg-neutral-300/20 rounded p-4 my-6 overflow-x-auto;
+  }
+
+  .mdx blockquote {
+    @apply border-l-4 border-neutral-500 pl-4 italic text-muted-foreground my-4;
   }
 }
