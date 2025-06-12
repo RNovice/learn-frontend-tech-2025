@@ -1,9 +1,9 @@
-| Project | Tools Focused               | Topic               | Status           |
-| ------- | --------------------------- | ------------------- | ---------------- |
-| 1       | TypeScript, RHF, Zod        | Signup Form         | Project Finished |
-| 2       | Tailwind, Radix, ShadCN, TS | Personal Portfolio  | Project Finished |
-| 3       | Next.js, Tailwind, TS       | Static Blog         | Project Finished |
-| 4       | Next.js, Next-Intl, TS      | Product Page (i18n) | Not Start Yet    |
+| Project | Tools Focused           | Topic               | Status           |
+| ------- | ----------------------- | ------------------- | ---------------- |
+| 1       | TypeScript, RHF, Zod    | Signup Form         | Project Finished |
+| 2       | Tailwind, Radix, ShadCN | Personal Portfolio  | Project Finished |
+| 3       | Next.js, MDX            | Static Blog         | Project Finished |
+| 4       | Next.js, Next-Intl      | Product Page (i18n) | Initialized      |
 
 <br/>
 
@@ -31,6 +31,16 @@ npm run dev
 
 ```shell
 cd blog-app
+npm install
+npm run dev
+```
+
+<br/>
+
+### Product Page
+
+```shell
+cd i18n-product-page
 npm install
 npm run dev
 ```
