@@ -1,4 +1,5 @@
 'use client'
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -11,21 +12,23 @@ const productImgData: ProductImgData[] = [
 ]
 
 const ProductView: React.FC = () => {
+  const t = useTranslations("ProductView")
   const [selected, setSelected] = useState<ProductImgData>(productImgData[0]);
+
   return (
     <section className="grid lg:grid-cols-2 gap-10">
       <div>
         <figure className="flex flex-col justify-between items-center h-full w-full ">
           <Image
             src={selected.src}
-            alt="Black t-shirt front view"
+            alt={`${t("short_name")} ${t(`img_caption.${selected.id}`)}`}
             itemProp="image"
-            className="rounded shadow object-cover h-full aspect-20/22"
+            className="rounded shadow object-cover h-full w-auto aspect-20/22"
             width={512}
             height={768}
           />
           <figcaption className="text-sm text-center text-foreground-muted mt-1 sr-only">
-            Front View
+            {t(`img_caption.${selected.id}`)}
           </figcaption>
         </figure>
       </div>
@@ -33,7 +36,7 @@ const ProductView: React.FC = () => {
       <div className="flex flex-col gap-12">
         <div className="bg-surface p-6 rounded-lg shadow-md space-y-4">
           <h1 itemProp="name" className="text-3xl font-bold text-foreground">
-            Classic Black T-Shirt
+            {t("name")}
           </h1>
 
           <p
@@ -43,18 +46,17 @@ const ProductView: React.FC = () => {
             itemType="https://schema.org/Offer"
           >
             <span itemProp="priceCurrency" content="USD">$</span>
-            <span itemProp="price">14.99</span>
+            <span itemProp="price">14.99 USD</span>
           </p>
 
           <p itemProp="description" className="text-foreground-muted">
-            A classic black t-shirt made from 100% ringspun cotton. Lightweight,
-            breathable, and perfect for bulk orders or brand printing.
+            {t("description")}
           </p>
 
           <form className="space-y-4">
             <div>
               <label htmlFor="size" className="block font-medium text-sm mb-1">
-                Size
+                {t("size")}
               </label>
               <select
                 name="size"
@@ -62,16 +64,16 @@ const ProductView: React.FC = () => {
                 required
                 className="w-full border border-slate-300 rounded px-3 py-2"
               >
-                <option value="">Select size</option>
-                <option value="s">Small</option>
-                <option value="m">Medium</option>
-                <option value="l">Large</option>
-                <option value="xl">XL</option>
+                <option value="">{t("size_select")}</option>
+                <option value="s">{t("size_s")}</option>
+                <option value="m">{t("size_m")}</option>
+                <option value="l">{t("size_l")}</option>
+                <option value="xl">{t("size_xl")}</option>
               </select>
             </div>
             <div>
               <label htmlFor="quantity" className="block font-medium text-sm mb-1">
-                Quantity
+                {t("quantity")}
               </label>
               <input
                 type="number"
@@ -86,11 +88,12 @@ const ProductView: React.FC = () => {
               type="button"
               className="w-full cursor-pointer bg-accent hover:bg-accent-hover text-background py-2 rounded font-medium transition"
             >
-              Add to Cart
+              {t("add_to_cart")}
             </button>
           </form>
+
           <p className="text-success text-sm">
-            <strong>Availability:</strong> <span itemProp="availability">In Stock</span>
+            <strong>{t("stock_availability")}:</strong> <span itemProp="availability">{t("in_stock")}</span>
           </p>
         </div>
         <div className="flex justify-around flex-wrap order-first lg:order-last">
@@ -102,7 +105,7 @@ const ProductView: React.FC = () => {
             >
               <Image
                 src={item.src}
-                alt="Black t-shirt front view"
+                alt={`${t("short_name")} ${t(`img_caption.${item.id}`)}`}
                 itemProp="image"
                 className="rounded shadow aspect-square object-cover"
                 width={128}

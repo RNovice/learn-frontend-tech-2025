@@ -1,15 +1,40 @@
 'use client'
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
+const nameInLanguage = {
+  "en": "English",
+  "es": "Español",
+  "zh-Hans": "简体中文",
+  "zh-Hant": "繁體中文",
+  "ar": "العربية",
+  "hi": "हिन्दी",
+  "fr": "Français",
+  "ru": "Русский",
+  "pt": "Português",
+  "de": "Deutsch",
+  "ja": "日本語",
+  "ko": "한국어",
+  "it": "Italiano",
+  "tr": "Türkçe",
+  "nl": "Nederlands",
+  "pl": "Polski",
+  "bn": "বাংলা",
+  "ur": "اردو",
+  "vi": "Tiếng Việt",
+  "fa": "فارسی",
+  "th": "ไทย"
+}
+
 const LanguageSwitcher = () => {
-  const router = useRouter()
-  const pathname = usePathname()
-  const locale = useLocale()
-  const { locales } = routing
+  const t = useTranslations("LanguageSwitcher");
+  const router = useRouter();
+  const pathname = usePathname();
+  const locale = useLocale();
+  const { locales } = routing;
   const [selectedLanguage, setSelectedLanguage] = useState(locale);
   const [isOpen, setIsOpen] = useState(false);
   const selectRef = useRef<HTMLDivElement>(null);
@@ -53,8 +78,8 @@ const LanguageSwitcher = () => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex gap-2">
-          <Image src="/globe.svg" alt='language' width={16} height={16} />
-          <span>Language</span>
+          <Image src="/globe.svg" alt='globe' width={16} height={20} className="w-4 h-5" />
+          <span>{t('language')}</span>
         </div>
         <svg
           className="-mr-1 ml-2 h-5 w-5"
@@ -72,7 +97,7 @@ const LanguageSwitcher = () => {
       </button>
       {isOpen &&
         <div
-          className="origin-top-right absolute right-0 mt-1 w-full rounded-md bg-surface shadow"
+          className="absolute mt-1 pr-0.5 w-full h-90 max-h-[75vh] rounded-md bg-surface shadow overflow-auto"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"
@@ -88,7 +113,7 @@ const LanguageSwitcher = () => {
                   }`}
                 role="menuitem"
               >
-                {lng}
+                {nameInLanguage[lng] || lng}
               </button>
             ))}
           </div>
