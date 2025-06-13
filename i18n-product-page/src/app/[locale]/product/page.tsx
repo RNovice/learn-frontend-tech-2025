@@ -1,105 +1,41 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import ProductView from "@/components/ProductView";
+
+
+export const generateMetadata = (): Metadata => {
+  return {
+    title: "Classic Black T-Shirt | 100% Cotton Unisex Tee",
+    description:
+      "Soft, preshrunk, and perfect for screen printing — this unisex black t-shirt is made in the USA from 100% ringspun cotton. Available in multiple sizes.",
+    keywords: [
+      "black t-shirt",
+      "unisex cotton tee",
+      "screen printing shirt",
+      "blank shirt for printing",
+      "USA made t-shirt",
+      "preshrunk black tee"
+    ],
+    openGraph: {
+      title: "Classic Black T-Shirt | 100% Cotton Unisex Tee",
+      description:
+        "Soft, preshrunk, and perfect for screen printing — this unisex black t-shirt is made in the USA from 100% ringspun cotton.",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Classic Black T-Shirt | 100% Cotton Unisex Tee",
+      description:
+        "Unisex black tee, made in the USA. Comfortable, durable, and ideal for printing or embroidery.",
+    },
+  };
+};
 
 const ProductPage: React.FC = () => {
 
   return (
     <>
-      <main className="py-10">
+      <main className="container mx-auto py-12">
         <article itemScope itemType="https://schema.org/Product" className="max-w-6xl mx-auto px-4">
-          <section className="grid lg:grid-cols-2 gap-10 items-start">
-            <div className="space-y-4">
-              <figure>
-                <Image
-                  src="/t-shirt.png"
-                  alt="Black t-shirt front view"
-                  itemProp="image"
-                  className="rounded shadow"
-                  width={400}
-                  height={400}
-                />
-                <figcaption className="text-sm text-center text-foreground-muted mt-1">
-                  Front View
-                </figcaption>
-              </figure>
-              {/* <figure>
-                <Image
-                  src="/t-shirt.png"
-                  alt="Black t-shirt back view"
-                  itemProp="image"
-                  className="rounded shadow"
-                  width={400}
-                  height={400}
-                />
-                <figcaption className="text-sm text-center text-foreground-muted mt-1">
-                  Back View
-                </figcaption>
-              </figure> */}
-            </div>
-
-            <div className="bg-surface p-6 rounded-lg shadow-md space-y-4">
-              <h1 itemProp="name" className="text-3xl font-bold text-foreground">
-                Black T-Shirt
-              </h1>
-
-              <p
-                className="text-xl font-semibold text-accent"
-                itemProp="offers"
-                itemScope
-                itemType="https://schema.org/Offer"
-              >
-                <span itemProp="priceCurrency" content="USD">$</span>
-                <span itemProp="price">14.99</span>
-              </p>
-
-              <p itemProp="description" className="text-foreground-muted">
-                A classic black t-shirt made from 100% ringspun cotton. Lightweight,
-                breathable, and perfect for bulk orders or brand printing.
-              </p>
-
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="size" className="block font-medium text-sm mb-1">
-                    Size
-                  </label>
-                  <select
-                    name="size"
-                    id="size"
-                    required
-                    className="w-full border border-slate-300 rounded px-3 py-2"
-                  >
-                    <option value="">Select size</option>
-                    <option value="s">Small</option>
-                    <option value="m">Medium</option>
-                    <option value="l">Large</option>
-                    <option value="xl">XL</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="quantity" className="block font-medium text-sm mb-1">
-                    Quantity
-                  </label>
-                  <input
-                    type="number"
-                    id="quantity"
-                    name="quantity"
-                    min="1"
-                    defaultValue="1"
-                    className="w-24 border border-slate-300 rounded px-3 py-2"
-                  />
-                </div>
-                <button
-                  type="button"
-                  className="w-full cursor-pointer bg-accent hover:bg-accent-hover text-background py-2 rounded font-medium transition"
-                >
-                  Add to Cart
-                </button>
-              </form>
-              <p className="text-success text-sm">
-                <strong>Availability:</strong> <span itemProp="availability">In Stock</span>
-              </p>
-            </div>
-          </section>
-
+          <ProductView />
           <section className="mt-12">
             <h2 className="text-2xl font-semibold text-foreground mb-4">Product Details</h2>
             <ul className="list-disc list-inside text-foreground-muted space-y-1">
