@@ -1,7 +1,32 @@
 {
-  "Home": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+  "LanguageSwitcher": {
+    "language": "Language",
+    "language_name": "English"
   },
-  "LanguageSwitcher": {}
+  "ProductView": {
+    "name": "Classic Black T-Shirt",
+    "short_name": "Black Tee",
+    "img_caption": {
+      "1": "Front View",
+      "2": "Male Model",
+      "3": "Female Model"
+    },
+    "description": "A classic black t-shirt made from 100% ringspun cotton. Lightweight, breathable, and perfect for bulk orders or brand printing.",
+    "size": "Size",
+    "size_select": "Select Size",
+    "size_s": "Small",
+    "size_m": "Medium",
+    "size_l": "Large",
+    "size_xl": "XL",
+    "quantity": "Quantity",
+    "add_to_cart": "Add to Cart",
+    "stock_availability": "Availability",
+    "in_stock": "In Stock",
+    "sold_out": "Sold Out"
+  },
+  "Footer": {
+    "policy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "FAQ": "FAQ"
+  }
 }
