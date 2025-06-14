@@ -24,6 +24,34 @@
     "in_stock": "In Stock",
     "sold_out": "Sold Out"
   },
+  "Metadata": {
+    "title": "Classic Black T-Shirt | 100% Cotton Unisex Tee",
+    "description": "Soft, preshrunk, and perfect for screen printing — this unisex black t-shirt is made in the USA from 100% ringspun cotton. Available in multiple sizes.",
+    "keywords": "black t-shirt,unisex cotton tee,screen printing shirt,blank shirt for printing,USA made t-shirt,preshrunk black tee"
+  },
+  "ProductPage": {
+    "product_details": "Product Details",
+    "detail_1": "100% ringspun cotton",
+    "detail_2": "preshrunk fabric",
+    "detail_3": "Unisex fit",
+    "detail_4": "Made in the USA",
+    "detail_5": "Ideal for screen printing or embroidery",
+    "size_chart": "Size Chart",
+    "chart_headers": {
+      "size": "Size",
+      "chest": "Chest (in)",
+      "length": "Length (in)"
+    },
+    "size_s": "Small",
+    "size_m": "Medium",
+    "size_l": "Large",
+    "size_xl": "XL",
+    "customer_reviews": "Customer Reviews",
+    "review_prompt": "Write a Review",
+    "shipping_and_returns": "Shipping & Returns",
+    "shipping_info": "We offer fast and reliable shipping worldwide. Free returns within 30 days. See our <policyLink>shipping policy</policyLink> for more info.",
+    "shopping_policy": "shipping policy"
+  },
   "Footer": {
     "policy": "Privacy Policy",
     "terms": "Terms of Service",
