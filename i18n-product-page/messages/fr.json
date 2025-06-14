@@ -1,7 +1,60 @@
 {
-  "Home": {
-    "title": "Bonjour le monde!",
-    "about": "Aller à la page à propos"
+  "LanguageSwitcher": {
+    "language": "Langue",
+    "language_name": "Français"
   },
-  "LanguageSwitcher": {}
+  "ProductView": {
+    "name": "T-shirt Noir Classique",
+    "short_name": "T-shirt Noir",
+    "img_caption": {
+      "1": "Vue de face",
+      "2": "Modèle homme",
+      "3": "Modèle femme"
+    },
+    "description": "Un t-shirt noir classique en coton ringspun 100%. Léger, respirant, parfait pour les commandes en gros ou l'impression de marque.",
+    "size": "Taille",
+    "size_select": "Sélectionner la taille",
+    "size_s": "Petit",
+    "size_m": "Moyen",
+    "size_l": "Grand",
+    "size_xl": "XL",
+    "quantity": "Quantité",
+    "add_to_cart": "Ajouter au panier",
+    "stock_availability": "Disponibilité",
+    "in_stock": "En stock",
+    "sold_out": "Rupture de stock"
+  },
+  "Metadata": {
+    "title": "T-shirt Noir Classique | T-shirt Unisexe 100% Coton",
+    "description": "Doux, prélavé et parfait pour la sérigraphie — ce t-shirt noir unisexe est fabriqué aux États-Unis en coton ringspun 100%. Disponible en plusieurs tailles.",
+    "keywords": "t-shirt noir,t-shirt coton unisexe,t-shirt pour sérigraphie,t-shirt vierge pour impression,t-shirt fabriqué aux USA,t-shirt noir prélavé"
+  },
+  "ProductPage": {
+    "product_details": "Détails du produit",
+    "detail_1": "100% coton ringspun",
+    "detail_2": "tissu prélavé",
+    "detail_3": "Coupe unisexe",
+    "detail_4": "Fabriqué aux États-Unis",
+    "detail_5": "Idéal pour la sérigraphie ou la broderie",
+    "size_chart": "Guide des tailles",
+    "chart_headers": {
+      "size": "Taille",
+      "chest": "Poitrine (po)",
+      "length": "Longueur (po)"
+    },
+    "size_s": "Petit",
+    "size_m": "Moyen",
+    "size_l": "Grand",
+    "size_xl": "XL",
+    "customer_reviews": "Avis des clients",
+    "review_prompt": "Écrire un avis",
+    "shipping_and_returns": "Livraison & retours",
+    "shipping_info": "Nous proposons une livraison rapide et fiable dans le monde entier. Retours gratuits sous 30 jours. Consultez notre <policyLink>politique de livraison</policyLink> pour plus d'informations.",
+    "shopping_policy": "politique de livraison"
+  },
+  "Footer": {
+    "policy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "FAQ": "FAQ"
+  }
 }

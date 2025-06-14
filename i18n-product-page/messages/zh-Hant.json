@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "語言",
+    "language_name": "英文"
+  },
+  "ProductView": {
+    "name": "經典黑色T恤",
+    "short_name": "黑色T恤",
+    "img_caption": {
+      "1": "正面圖",
+      "2": "男模特兒",
+      "3": "女模特兒"
+    },
+    "description": "經典黑色T恤，100% 精梳純棉製成。輕盈、透氣，非常適合大量訂購或品牌印刷。",
+    "size": "尺寸",
+    "size_select": "選擇尺寸",
+    "size_s": "小",
+    "size_m": "中",
+    "size_l": "大",
+    "size_xl": "加大",
+    "quantity": "數量",
+    "add_to_cart": "加入購物車",
+    "stock_availability": "庫存狀態",
+    "in_stock": "有現貨",
+    "sold_out": "售罄"
+  },
+  "Metadata": {
+    "title": "經典黑色T恤 | 100% 純棉中性款",
+    "description": "柔軟、預縮，適合絲網印刷 — 這款中性黑色T恤採用100% 精梳純棉，美國製造。多種尺寸可選。",
+    "keywords": "黑色T恤,中性純棉T恤,絲網印刷T恤,空白印刷T恤,美國製T恤,預縮黑T"
+  },
+  "ProductPage": {
+    "product_details": "產品詳情",
+    "detail_1": "100% 精梳純棉",
+    "detail_2": "預縮布料",
+    "detail_3": "中性版型",
+    "detail_4": "美國製造",
+    "detail_5": "適合絲網印刷或刺繡",
+    "size_chart": "尺寸表",
+    "chart_headers": {
+      "size": "尺寸",
+      "chest": "胸圍（英吋）",
+      "length": "衣長（英吋）"
+    },
+    "size_s": "小",
+    "size_m": "中",
+    "size_l": "大",
+    "size_xl": "加大",
+    "customer_reviews": "顧客評價",
+    "review_prompt": "撰寫評價",
+    "shipping_and_returns": "運送與退貨",
+    "shipping_info": "我們提供全球快速可靠的運送服務。30天內免費退貨。詳情請參閱<policyLink>運送政策</policyLink>。",
+    "shopping_policy": "運送政策"
+  },
+  "Footer": {
+    "policy": "隱私政策",
+    "terms": "服務條款",
+    "FAQ": "常見問題"
+  }
+}
