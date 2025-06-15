@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Sprache",
+    "language_name": "Deutsch"
+  },
+  "ProductView": {
+    "name": "Klassisches Schwarzes T-Shirt",
+    "short_name": "Schwarzes Shirt",
+    "img_caption": {
+      "1": "Vorderansicht",
+      "2": "Männliches Model",
+      "3": "Weibliches Model"
+    },
+    "description": "Ein klassisches schwarzes T-Shirt aus 100% ringgesponnener Baumwolle. Leicht, atmungsaktiv und perfekt für Großbestellungen oder Bedrucken.",
+    "size": "Größe",
+    "size_select": "Größe auswählen",
+    "size_s": "Klein",
+    "size_m": "Mittel",
+    "size_l": "Groß",
+    "size_xl": "XL",
+    "quantity": "Menge",
+    "add_to_cart": "In den Warenkorb",
+    "stock_availability": "Verfügbarkeit",
+    "in_stock": "Auf Lager",
+    "sold_out": "Ausverkauft"
+  },
+  "Metadata": {
+    "title": "Klassisches Schwarzes T-Shirt | 100% Baumwolle Unisex Shirt",
+    "description": "Weich, vorgeschrumpft und perfekt zum Bedrucken – dieses Unisex-T-Shirt ist in den USA aus 100% ringgesponnener Baumwolle gefertigt. In mehreren Größen erhältlich.",
+    "keywords": "schwarzes t-shirt,unisex baumwollshirt,shirt zum bedrucken,blanko shirt für druck,usa hergestelltes t-shirt,vorgeschrumpftes schwarzes shirt"
+  },
+  "ProductPage": {
+    "product_details": "Produktdetails",
+    "detail_1": "100% ringgesponnene Baumwolle",
+    "detail_2": "vorgeschrumpfter Stoff",
+    "detail_3": "Unisex-Passform",
+    "detail_4": "Hergestellt in den USA",
+    "detail_5": "Ideal zum Bedrucken oder Besticken",
+    "size_chart": "Größentabelle",
+    "chart_headers": {
+      "size": "Größe",
+      "chest": "Brust (in)",
+      "length": "Länge (in)"
+    },
+    "size_s": "Klein",
+    "size_m": "Mittel",
+    "size_l": "Groß",
+    "size_xl": "XL",
+    "customer_reviews": "Kundenbewertungen",
+    "review_prompt": "Bewertung schreiben",
+    "shipping_and_returns": "Versand & Rückgabe",
+    "shipping_info": "Wir bieten schnellen und zuverlässigen weltweiten Versand. Kostenlose Rückgabe innerhalb von 30 Tagen. Siehe unsere <policyLink>Versandrichtlinie</policyLink> für weitere Informationen.",
+    "shopping_policy": "Versandrichtlinie"
+  },
+  "Footer": {
+    "policy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "FAQ": "FAQ"
+  }
+}

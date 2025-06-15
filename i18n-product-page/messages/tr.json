@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Dil",
+    "language_name": "Türkçe"
+  },
+  "ProductView": {
+    "name": "Klasik Siyah Tişört",
+    "short_name": "Siyah Tişört",
+    "img_caption": {
+      "1": "Ön Görünüm",
+      "2": "Erkek Model",
+      "3": "Kadın Model"
+    },
+    "description": "100% penye pamuktan üretilmiş klasik siyah tişört. Hafif, nefes alabilir ve toplu siparişler veya marka baskısı için mükemmel.",
+    "size": "Beden",
+    "size_select": "Beden Seçin",
+    "size_s": "Küçük",
+    "size_m": "Orta",
+    "size_l": "Büyük",
+    "size_xl": "XL",
+    "quantity": "Adet",
+    "add_to_cart": "Sepete Ekle",
+    "stock_availability": "Stok Durumu",
+    "in_stock": "Stokta Var",
+    "sold_out": "Tükendi"
+  },
+  "Metadata": {
+    "title": "Klasik Siyah Tişört | %100 Pamuk Unisex Tişört",
+    "description": "Yumuşak, önceden çekmiş ve baskı için mükemmel — bu unisex siyah tişört, ABD'de %100 penye pamuktan üretilmiştir. Birden fazla beden seçeneğiyle.",
+    "keywords": "siyah tişört,unisex pamuk tişört,baskı için tişört,boş baskı tişörtü,ABD üretimi tişört,önceden çekmiş siyah tişört"
+  },
+  "ProductPage": {
+    "product_details": "Ürün Detayları",
+    "detail_1": "%100 penye pamuk",
+    "detail_2": "önceden çekmiş kumaş",
+    "detail_3": "Unisex kalıp",
+    "detail_4": "ABD'de üretilmiştir",
+    "detail_5": "Baskı veya nakış için ideal",
+    "size_chart": "Beden Tablosu",
+    "chart_headers": {
+      "size": "Beden",
+      "chest": "Göğüs (inç)",
+      "length": "Uzunluk (inç)"
+    },
+    "size_s": "Küçük",
+    "size_m": "Orta",
+    "size_l": "Büyük",
+    "size_xl": "XL",
+    "customer_reviews": "Müşteri Yorumları",
+    "review_prompt": "Yorum Yaz",
+    "shipping_and_returns": "Kargo & İade",
+    "shipping_info": "Dünya çapında hızlı ve güvenilir kargo sunuyoruz. 30 gün içinde ücretsiz iade. Daha fazla bilgi için <policyLink>kargo politikamıza</policyLink> bakın.",
+    "shopping_policy": "kargo politikası"
+  },
+  "Footer": {
+    "policy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "FAQ": "SSS"
+  }
+}

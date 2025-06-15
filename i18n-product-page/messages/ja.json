@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "言語",
+    "language_name": "日本語"
+  },
+  "ProductView": {
+    "name": "クラシックブラックTシャツ",
+    "short_name": "ブラックT",
+    "img_caption": {
+      "1": "前面ビュー",
+      "2": "男性モデル",
+      "3": "女性モデル"
+    },
+    "description": "100%リングスパンコットン製のクラシックなブラックTシャツ。軽量で通気性が良く、大量注文やブランド印刷に最適です。",
+    "size": "サイズ",
+    "size_select": "サイズを選択",
+    "size_s": "S（スモール）",
+    "size_m": "M（ミディアム）",
+    "size_l": "L（ラージ）",
+    "size_xl": "XL",
+    "quantity": "数量",
+    "add_to_cart": "カートに追加",
+    "stock_availability": "在庫状況",
+    "in_stock": "在庫あり",
+    "sold_out": "売り切れ"
+  },
+  "Metadata": {
+    "title": "クラシックブラックTシャツ | 100%コットン ユニセックスT",
+    "description": "柔らかく、防縮加工済み。アメリカ製の100%リングスパンコットンを使用したユニセックスブラックTシャツ。複数サイズ展開、プリントに最適。",
+    "keywords": "ブラックTシャツ,ユニセックスコットンT,プリント用シャツ,無地Tシャツ,アメリカ製Tシャツ,防縮ブラックT"
+  },
+  "ProductPage": {
+    "product_details": "商品詳細",
+    "detail_1": "100%リングスパンコットン",
+    "detail_2": "防縮加工生地",
+    "detail_3": "ユニセックスフィット",
+    "detail_4": "アメリカ製",
+    "detail_5": "プリントや刺繍に最適",
+    "size_chart": "サイズ表",
+    "chart_headers": {
+      "size": "サイズ",
+      "chest": "胸囲（インチ）",
+      "length": "着丈（インチ）"
+    },
+    "size_s": "S（スモール）",
+    "size_m": "M（ミディアム）",
+    "size_l": "L（ラージ）",
+    "size_xl": "XL",
+    "customer_reviews": "カスタマーレビュー",
+    "review_prompt": "レビューを書く",
+    "shipping_and_returns": "配送と返品",
+    "shipping_info": "世界中へ迅速かつ信頼できる配送を提供しています。30日以内の無料返品が可能です。詳細は<policyLink>配送ポリシー</policyLink>をご覧ください。",
+    "shopping_policy": "配送ポリシー"
+  },
+  "Footer": {
+    "policy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "FAQ": "よくある質問"
+  }
+}

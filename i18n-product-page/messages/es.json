@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Idioma",
+    "language_name": "Español"
+  },
+  "ProductView": {
+    "name": "Camiseta Negra Clásica",
+    "short_name": "Camiseta Negra",
+    "img_caption": {
+      "1": "Vista Frontal",
+      "2": "Modelo Masculino",
+      "3": "Modelo Femenino"
+    },
+    "description": "Una camiseta negra clásica hecha de 100% algodón ringspun. Ligera, transpirable y perfecta para pedidos al por mayor o impresión de marca.",
+    "size": "Talla",
+    "size_select": "Seleccionar Talla",
+    "size_s": "Pequeña",
+    "size_m": "Mediana",
+    "size_l": "Grande",
+    "size_xl": "XL",
+    "quantity": "Cantidad",
+    "add_to_cart": "Agregar al Carrito",
+    "stock_availability": "Disponibilidad",
+    "in_stock": "En Stock",
+    "sold_out": "Agotado"
+  },
+  "Metadata": {
+    "title": "Camiseta Negra Clásica | Camiseta Unisex 100% Algodón",
+    "description": "Suave, preencogida y perfecta para serigrafía — esta camiseta negra unisex está hecha en EE. UU. de 100% algodón ringspun. Disponible en varias tallas.",
+    "keywords": "camiseta negra,camiseta unisex algodón,camiseta para serigrafía,camiseta lisa para imprimir,camiseta hecha en EE. UU.,camiseta negra preencogida"
+  },
+  "ProductPage": {
+    "product_details": "Detalles del Producto",
+    "detail_1": "100% algodón ringspun",
+    "detail_2": "tejido preencogido",
+    "detail_3": "Ajuste unisex",
+    "detail_4": "Hecho en EE. UU.",
+    "detail_5": "Ideal para serigrafía o bordado",
+    "size_chart": "Tabla de Tallas",
+    "chart_headers": {
+      "size": "Talla",
+      "chest": "Pecho (pulg)",
+      "length": "Largo (pulg)"
+    },
+    "size_s": "Pequeña",
+    "size_m": "Mediana",
+    "size_l": "Grande",
+    "size_xl": "XL",
+    "customer_reviews": "Opiniones de Clientes",
+    "review_prompt": "Escribir una Opinión",
+    "shipping_and_returns": "Envíos y Devoluciones",
+    "shipping_info": "Ofrecemos envíos rápidos y confiables a todo el mundo. Devoluciones gratuitas dentro de los 30 días. Consulta nuestra <policyLink>política de envíos</policyLink> para más información.",
+    "shopping_policy": "política de envíos"
+  },
+  "Footer": {
+    "policy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "FAQ": "Preguntas Frecuentes"
+  }
+}

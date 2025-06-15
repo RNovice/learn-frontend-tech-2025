@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Język",
+    "language_name": "Polski"
+  },
+  "ProductView": {
+    "name": "Klasyczna czarna koszulka",
+    "short_name": "Czarna koszulka",
+    "img_caption": {
+      "1": "Widok z przodu",
+      "2": "Model mężczyzna",
+      "3": "Modelka kobieta"
+    },
+    "description": "Klasyczna czarna koszulka wykonana w 100% z bawełny ring-spun. Lekka, oddychająca, idealna do zamówień hurtowych lub nadruku firmowego.",
+    "size": "Rozmiar",
+    "size_select": "Wybierz rozmiar",
+    "size_s": "Mały",
+    "size_m": "Średni",
+    "size_l": "Duży",
+    "size_xl": "XL",
+    "quantity": "Ilość",
+    "add_to_cart": "Dodaj do koszyka",
+    "stock_availability": "Dostępność",
+    "in_stock": "Dostępny",
+    "sold_out": "Wyprzedany"
+  },
+  "Metadata": {
+    "title": "Klasyczna czarna koszulka | 100% bawełny unisex",
+    "description": "Miękka, dekatyzowana i idealna do nadruku — ta unisex czarna koszulka została wyprodukowana w USA z 100% bawełny ring-spun. Dostępna w wielu rozmiarach.",
+    "keywords": "czarna koszulka,bawełniana koszulka unisex,koszulka do nadruku,pusta koszulka do nadruku,amerykańska koszulka,dekatyzowana czarna koszulka"
+  },
+  "ProductPage": {
+    "product_details": "Szczegóły produktu",
+    "detail_1": "100% bawełny ring-spun",
+    "detail_2": "dekatyzowany materiał",
+    "detail_3": "Fason unisex",
+    "detail_4": "Wyprodukowane w USA",
+    "detail_5": "Idealna do nadruku lub haftu",
+    "size_chart": "Tabela rozmiarów",
+    "chart_headers": {
+      "size": "Rozmiar",
+      "chest": "Klatka piersiowa (cal)",
+      "length": "Długość (cal)"
+    },
+    "size_s": "Mały",
+    "size_m": "Średni",
+    "size_l": "Duży",
+    "size_xl": "XL",
+    "customer_reviews": "Opinie klientów",
+    "review_prompt": "Napisz opinię",
+    "shipping_and_returns": "Wysyłka i zwroty",
+    "shipping_info": "Oferujemy szybką i niezawodną wysyłkę na cały świat. Darmowe zwroty w ciągu 30 dni. Zobacz naszą <policyLink>politykę wysyłki</policyLink> po więcej informacji.",
+    "shopping_policy": "polityka wysyłki"
+  },
+  "Footer": {
+    "policy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "FAQ": "FAQ"
+  }
+}

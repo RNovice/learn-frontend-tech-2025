@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Taal",
+    "language_name": "Nederlands"
+  },
+  "ProductView": {
+    "name": "Klassiek Zwart T-shirt",
+    "short_name": "Zwart T-shirt",
+    "img_caption": {
+      "1": "Vooraanzicht",
+      "2": "Mannelijk model",
+      "3": "Vrouwelijk model"
+    },
+    "description": "Een klassiek zwart t-shirt gemaakt van 100% ringspun katoen. Lichtgewicht, ademend en perfect voor grote bestellingen of bedrukking.",
+    "size": "Maat",
+    "size_select": "Selecteer maat",
+    "size_s": "Small",
+    "size_m": "Medium",
+    "size_l": "Large",
+    "size_xl": "XL",
+    "quantity": "Aantal",
+    "add_to_cart": "Toevoegen aan winkelwagen",
+    "stock_availability": "Beschikbaarheid",
+    "in_stock": "Op voorraad",
+    "sold_out": "Uitverkocht"
+  },
+  "Metadata": {
+    "title": "Klassiek Zwart T-shirt | 100% Katoen Unisex Shirt",
+    "description": "Zacht, voorgekrompen en perfect voor bedrukking — dit unisex zwarte t-shirt is gemaakt in de VS van 100% ringspun katoen. Verkrijgbaar in meerdere maten.",
+    "keywords": "zwart t-shirt,unisex katoenen shirt,shirt voor bedrukking,leeg shirt voor bedrukking,VS gemaakt t-shirt,voorgekrompen zwart shirt"
+  },
+  "ProductPage": {
+    "product_details": "Productdetails",
+    "detail_1": "100% ringspun katoen",
+    "detail_2": "voorgekrompen stof",
+    "detail_3": "Unisex pasvorm",
+    "detail_4": "Gemaakt in de VS",
+    "detail_5": "Ideaal voor bedrukking of borduren",
+    "size_chart": "Maattabel",
+    "chart_headers": {
+      "size": "Maat",
+      "chest": "Borst (in)",
+      "length": "Lengte (in)"
+    },
+    "size_s": "Small",
+    "size_m": "Medium",
+    "size_l": "Large",
+    "size_xl": "XL",
+    "customer_reviews": "Klantbeoordelingen",
+    "review_prompt": "Schrijf een beoordeling",
+    "shipping_and_returns": "Verzending & Retourneren",
+    "shipping_info": "Wij bieden snelle en betrouwbare wereldwijde verzending. Gratis retourneren binnen 30 dagen. Zie ons <policyLink>verzendbeleid</policyLink> voor meer informatie.",
+    "shopping_policy": "verzendbeleid"
+  },
+  "Footer": {
+    "policy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "FAQ": "FAQ"
+  }
+}

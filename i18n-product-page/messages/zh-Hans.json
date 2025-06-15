@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "语言",
+    "language_name": "中文"
+  },
+  "ProductView": {
+    "name": "经典黑色T恤",
+    "short_name": "黑色T恤",
+    "img_caption": {
+      "1": "正面图",
+      "2": "男模特",
+      "3": "女模特"
+    },
+    "description": "这是一款由100%精梳棉制成的经典黑色T恤。轻盈透气，非常适合批量订购或品牌印花。",
+    "size": "尺码",
+    "size_select": "选择尺码",
+    "size_s": "小号",
+    "size_m": "中号",
+    "size_l": "大号",
+    "size_xl": "加大号",
+    "quantity": "数量",
+    "add_to_cart": "加入购物车",
+    "stock_availability": "库存状态",
+    "in_stock": "有货",
+    "sold_out": "售罄"
+  },
+  "Metadata": {
+    "title": "经典黑色T恤 | 100%纯棉男女同款",
+    "description": "柔软、预缩，适合丝网印刷——这款男女同款黑色T恤由美国制造，采用100%精梳棉。多种尺码可选。",
+    "keywords": "黑色T恤,男女同款纯棉T恤,丝网印刷T恤,空白印花T恤,美国制造T恤,预缩黑色T恤"
+  },
+  "ProductPage": {
+    "product_details": "产品详情",
+    "detail_1": "100%精梳棉",
+    "detail_2": "预缩面料",
+    "detail_3": "男女同款版型",
+    "detail_4": "美国制造",
+    "detail_5": "适合丝网印刷或刺绣",
+    "size_chart": "尺码表",
+    "chart_headers": {
+      "size": "尺码",
+      "chest": "胸围（英寸）",
+      "length": "衣长（英寸）"
+    },
+    "size_s": "小号",
+    "size_m": "中号",
+    "size_l": "大号",
+    "size_xl": "加大号",
+    "customer_reviews": "客户评价",
+    "review_prompt": "写评价",
+    "shipping_and_returns": "配送与退货",
+    "shipping_info": "我们提供快速可靠的全球配送。30天内免费退货。详情请参阅我们的<policyLink>配送政策</policyLink>。",
+    "shopping_policy": "配送政策"
+  },
+  "Footer": {
+    "policy": "隐私政策",
+    "terms": "服务条款",
+    "FAQ": "常见问题"
+  }
+}

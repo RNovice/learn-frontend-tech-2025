@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Lingua",
+    "language_name": "Italiano"
+  },
+  "ProductView": {
+    "name": "Maglietta Nera Classica",
+    "short_name": "Maglietta Nera",
+    "img_caption": {
+      "1": "Vista Frontale",
+      "2": "Modello Uomo",
+      "3": "Modella Donna"
+    },
+    "description": "Una maglietta nera classica realizzata in 100% cotone ringspun. Leggera, traspirante e perfetta per ordini all'ingrosso o per la stampa di marchi.",
+    "size": "Taglia",
+    "size_select": "Seleziona Taglia",
+    "size_s": "Piccola",
+    "size_m": "Media",
+    "size_l": "Grande",
+    "size_xl": "XL",
+    "quantity": "Quantità",
+    "add_to_cart": "Aggiungi al Carrello",
+    "stock_availability": "Disponibilità",
+    "in_stock": "Disponibile",
+    "sold_out": "Esaurito"
+  },
+  "Metadata": {
+    "title": "Maglietta Nera Classica | T-shirt Unisex 100% Cotone",
+    "description": "Morbida, prelavata e perfetta per la serigrafia — questa maglietta nera unisex è realizzata negli USA in 100% cotone ringspun. Disponibile in varie taglie.",
+    "keywords": "maglietta nera,t-shirt cotone unisex,maglietta per serigrafia,maglietta neutra per stampa,maglietta prodotta in USA,maglietta nera prelavata"
+  },
+  "ProductPage": {
+    "product_details": "Dettagli Prodotto",
+    "detail_1": "100% cotone ringspun",
+    "detail_2": "tessuto prelavato",
+    "detail_3": "Vestibilità unisex",
+    "detail_4": "Prodotto negli USA",
+    "detail_5": "Ideale per serigrafia o ricamo",
+    "size_chart": "Tabella Taglie",
+    "chart_headers": {
+      "size": "Taglia",
+      "chest": "Torace (in)",
+      "length": "Lunghezza (in)"
+    },
+    "size_s": "Piccola",
+    "size_m": "Media",
+    "size_l": "Grande",
+    "size_xl": "XL",
+    "customer_reviews": "Recensioni Clienti",
+    "review_prompt": "Scrivi una Recensione",
+    "shipping_and_returns": "Spedizione & Resi",
+    "shipping_info": "Offriamo spedizioni rapide e affidabili in tutto il mondo. Resi gratuiti entro 30 giorni. Consulta la nostra <policyLink>politica di spedizione</policyLink> per maggiori informazioni.",
+    "shopping_policy": "politica di spedizione"
+  },
+  "Footer": {
+    "policy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "FAQ": "Domande Frequenti"
+  }
+}

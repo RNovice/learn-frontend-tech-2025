@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Idioma",
+    "language_name": "Português"
+  },
+  "ProductView": {
+    "name": "Camiseta Preta Clássica",
+    "short_name": "Camiseta Preta",
+    "img_caption": {
+      "1": "Vista Frontal",
+      "2": "Modelo Masculino",
+      "3": "Modelo Feminino"
+    },
+    "description": "Uma camiseta preta clássica feita de 100% algodão ringspun. Leve, respirável e perfeita para pedidos em grande quantidade ou personalização de marcas.",
+    "size": "Tamanho",
+    "size_select": "Selecione o Tamanho",
+    "size_s": "Pequeno",
+    "size_m": "Médio",
+    "size_l": "Grande",
+    "size_xl": "XL",
+    "quantity": "Quantidade",
+    "add_to_cart": "Adicionar ao Carrinho",
+    "stock_availability": "Disponibilidade",
+    "in_stock": "Em Estoque",
+    "sold_out": "Esgotado"
+  },
+  "Metadata": {
+    "title": "Camiseta Preta Clássica | Camiseta Unissex 100% Algodão",
+    "description": "Macia, pré-encolhida e perfeita para serigrafia — esta camiseta preta unissex é feita nos EUA com 100% algodão ringspun. Disponível em vários tamanhos.",
+    "keywords": "camiseta preta,camiseta unissex algodão,camiseta para serigrafia,camiseta lisa para estamparia,camiseta feita nos EUA,camiseta preta pré-encolhida"
+  },
+  "ProductPage": {
+    "product_details": "Detalhes do Produto",
+    "detail_1": "100% algodão ringspun",
+    "detail_2": "tecido pré-encolhido",
+    "detail_3": "Modelagem unissex",
+    "detail_4": "Feito nos EUA",
+    "detail_5": "Ideal para serigrafia ou bordado",
+    "size_chart": "Tabela de Tamanhos",
+    "chart_headers": {
+      "size": "Tamanho",
+      "chest": "Peito (pol)",
+      "length": "Comprimento (pol)"
+    },
+    "size_s": "Pequeno",
+    "size_m": "Médio",
+    "size_l": "Grande",
+    "size_xl": "XL",
+    "customer_reviews": "Avaliações dos Clientes",
+    "review_prompt": "Escreva uma Avaliação",
+    "shipping_and_returns": "Envio & Devoluções",
+    "shipping_info": "Oferecemos envio rápido e confiável para todo o mundo. Devoluções gratuitas em até 30 dias. Veja nossa <policyLink>política de envio</policyLink> para mais informações.",
+    "shopping_policy": "política de envio"
+  },
+  "Footer": {
+    "policy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "FAQ": "Perguntas Frequentes"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "LanguageSwitcher": {
+    "language": "Ngôn ngữ",
+    "language_name": "Tiếng Việt"
+  },
+  "ProductView": {
+    "name": "Áo Thun Đen Cổ Điển",
+    "short_name": "Áo Đen",
+    "img_caption": {
+      "1": "Mặt Trước",
+      "2": "Người Mẫu Nam",
+      "3": "Người Mẫu Nữ"
+    },
+    "description": "Áo thun đen cổ điển làm từ 100% cotton ringspun. Nhẹ, thoáng khí, hoàn hảo cho đơn hàng số lượng lớn hoặc in thương hiệu.",
+    "size": "Kích cỡ",
+    "size_select": "Chọn Kích Cỡ",
+    "size_s": "Nhỏ",
+    "size_m": "Trung bình",
+    "size_l": "Lớn",
+    "size_xl": "XL",
+    "quantity": "Số lượng",
+    "add_to_cart": "Thêm vào giỏ",
+    "stock_availability": "Tình trạng",
+    "in_stock": "Còn hàng",
+    "sold_out": "Hết hàng"
+  },
+  "Metadata": {
+    "title": "Áo Thun Đen Cổ Điển | Áo Unisex 100% Cotton",
+    "description": "Mềm mại, không co rút, hoàn hảo để in lụa — áo thun unisex màu đen này được sản xuất tại Mỹ từ 100% cotton ringspun. Có nhiều kích cỡ.",
+    "keywords": "áo thun đen,áo cotton unisex,áo in lụa,áo trơn để in,áo thun sản xuất tại Mỹ,áo đen không co rút"
+  },
+  "ProductPage": {
+    "product_details": "Chi tiết sản phẩm",
+    "detail_1": "100% cotton ringspun",
+    "detail_2": "Vải không co rút",
+    "detail_3": "Dáng unisex",
+    "detail_4": "Sản xuất tại Mỹ",
+    "detail_5": "Lý tưởng để in lụa hoặc thêu",
+    "size_chart": "Bảng kích cỡ",
+    "chart_headers": {
+      "size": "Kích cỡ",
+      "chest": "Ngực (in)",
+      "length": "Chiều dài (in)"
+    },
+    "size_s": "Nhỏ",
+    "size_m": "Trung bình",
+    "size_l": "Lớn",
+    "size_xl": "XL",
+    "customer_reviews": "Đánh giá khách hàng",
+    "review_prompt": "Viết đánh giá",
+    "shipping_and_returns": "Vận chuyển & Đổi trả",
+    "shipping_info": "Chúng tôi cung cấp dịch vụ vận chuyển nhanh chóng và đáng tin cậy trên toàn thế giới. Đổi trả miễn phí trong vòng 30 ngày. Xem <policyLink>chính sách vận chuyển</policyLink> để biết thêm chi tiết.",
+    "shopping_policy": "chính sách vận chuyển"
+  },
+  "Footer": {
+    "policy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "FAQ": "Câu hỏi thường gặp"
+  }
+}
