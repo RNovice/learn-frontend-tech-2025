@@ -6,6 +6,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { getLangDir } from "rtl-detect";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,14 +28,16 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string; }>
+  params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     return notFound();
   }
+  const direction = getLangDir(locale);
+
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={direction}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

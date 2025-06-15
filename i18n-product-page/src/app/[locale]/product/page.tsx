@@ -102,6 +102,7 @@ const ProductPage: React.FC = () => {
               itemProp="review"
               itemScope
               itemType="https://schema.org/Review"
+              dir="ltr"
             >
               <p className="font-semibold text-foreground">
                 <span itemProp="author">Alex R.</span>{" "}
@@ -112,7 +113,7 @@ const ProductPage: React.FC = () => {
               </p>
             </article>
 
-            <article className="bg-surface p-4 rounded shadow">
+            <article className="bg-surface p-4 rounded shadow" dir="ltr">
               <p className="font-semibold text-foreground">
                 Jess M. <span className="text-yellow-400">★★★★☆</span>
               </p>
